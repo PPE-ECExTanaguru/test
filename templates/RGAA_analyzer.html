@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyseur RGAA</title>
+    <!-- Utilisation de la barre oblique normale pour le lien CSS -->
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Analyseur RGAA</h1>
+            <p>Analysez le code selon les critères RGAA</p>
+        </header>
+
+        <main>
+            <section class="form-section">
+                <h2>Analyse de Code</h2>
+                <textarea id="code-input" placeholder="Collez votre code ici..."></textarea>
+                <button id="analyze-code-btn">Analyser</button>
+            </section>
+
+            <section class="form-section">
+                <h2>Téléverser un Fichier</h2>
+                <input type="file" id="file-input">
+                <button id="upload-file-btn">Téléverser et Analyser</button>
+            </section>
+
+            <section id="result-section">
+                <h2>Résultat :</h2>
+                <pre id="response-output">Les résultats apparaîtront ici...</pre>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 MonChatbotHermes. Tous droits réservés.</p>
+        </footer>
+    </div>
+
+    <!-- Utilisation de la barre oblique normale pour le chemin du fichier JS -->
+    <script src="static/js/script.js"></script>
+</body>
+</html>
