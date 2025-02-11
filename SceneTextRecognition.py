@@ -36,6 +36,6 @@ for (bbox, text, prob) in results:
     cv2.putText(image, text, top_left, cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 0, 0), 2)
 
 plt.figure(figsize=(10, 10))
-plt.imshow(image)
+plt.imshow(image) 
 plt.axis("off")
 plt.show()
