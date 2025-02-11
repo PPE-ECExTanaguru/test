@@ -17,7 +17,7 @@ img5 = "images/buildings.jpg"
 img6 = "images/signage.jpg"
 img7 = "images/words.jpg"
 
-image_path = img7
+image_path = img2
 image = cv2.imread(image_path)
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
